@@ -13,3 +13,7 @@ foreach ($array as $numeral => $nomeNumero) {
 echo "Total: " . count($array) . PHP_EOL;
 
 var_dump(array_is_list($array));
+
+array_push($array, 'quatro');
+
+var_dump($array);

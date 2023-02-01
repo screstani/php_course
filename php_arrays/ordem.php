@@ -22,3 +22,7 @@ function ordenaNotas(array $nota1, array $nota2): int
 
 usort($notas, 'ordenaNotas');
 var_dump($notas);
+
+foreach ($notas as ['aluno' => $aluno, 'nota' => $nota]) {
+    echo "$aluno possui $nota de nota" . PHP_EOL;
+}
